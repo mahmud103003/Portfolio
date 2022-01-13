@@ -1,0 +1,1490 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.common-heading {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 32px;
+	color: #222222;
+	margin: 0 488px;
+}
+.common-brows a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #222222;
+}
+/* common css */
+#part-1{
+    background: rgb(228, 228, 228);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#part-1 .logo-menu{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+
+}
+#part-1 .logo-menu .logo img{
+    width: 100%;
+}
+#part-1 .logo-menu .menu{
+    display: flex;
+    z-index: 11111111;
+}
+#part-1 .logo-menu .menu ul li{
+    margin-right: 35px;
+    padding-top: 60px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+	height: 0;
+}
+#part-1 .logo-menu .menu ul li:hover{
+    background: #d6c6b2;
+	height: 100%;
+}
+#part-1 .logo-menu .menu ul li a{
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+}
+#part-2{
+    height: 540px;
+    background: rgb(228, 228, 228);
+}
+#part-2 .man-menu .man-info{
+    display: flex;
+    position: relative;
+}
+#part-2 .man-menu .man-info .man{
+    width: 50%;
+}
+#part-2 .man-menu .man-info .man img {
+	position: absolute;
+	left: 11%;
+	top: -374%;
+	z-index: 1111;
+	width: 48%;
+}
+#part-2 .man-menu .man-info .about-man h5 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 20px;
+	color: #222222;
+	position: absolute;
+	top: 211px;
+	left: 744px;
+}
+#part-2 .man-menu .man-info .about-man .mogan {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 800px;
+	font-size: 102px;
+	color: #222222;
+	text-transform: uppercase;
+	position: absolute;
+	top: 221px;
+	left: 601px;
+	z-index: 111;
+}
+#part-2 .man-menu .man-info .about-man .michalvina {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 800;
+	font-size: 81px;
+	color: #222222;
+	text-transform: capitalize;
+	position: absolute;
+	top: 328px;
+	left: 554px;
+	z-index: 11111;
+}
+#part-2 .man-menu .man-info .about-man .explore a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #222222;
+	background: #d6c6b2;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 15px 20px;
+	border: 2px solid #d6c6b2;
+	transition: all linear 0.2s;
+	position: absolute;
+	top: 446px;
+	left: 655px;
+	z-index: 111114;
+}
+#part-2 .man-menu .man-info .about-man .explore a:hover{
+    background: none;
+    color: #d6c6b2;
+}
+#part-2 .man-menu .man-info .about-man .hire a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #222222;
+	background: #d6c6b2;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 15px 38px;
+	border: 2px solid #d6c6b2;
+	position: absolute;
+	top: 446px;
+	left: 840px;
+	z-index: 1;
+	transition: all linear 0.2s;
+}
+#part-2 .man-menu .man-info .about-man .hire a:hover{
+    background: none;
+    color: #d6c6b2;
+}
+
+/* about starts */
+#about{
+    height: 715px;
+}
+#about .about-persion{
+    display: flex;
+    position: relative;
+}
+#about .about-persion .about-pic{
+    width: 470px;
+    height: 715px;
+}
+#about .about-persion .about-pic img {
+	height: 715px;
+	padding-right: 30px;
+	position: absolute;
+	top: 128px;
+	left: -64px;
+}
+#about .about-persion .about-man{
+    width: 670px;
+    margin-left: 30px;
+}
+#about .about-persion .about-man .about-me h1 {
+	margin-bottom: 50px;
+	margin-top: 165px;
+    font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 32px;
+}
+#about .about-persion .about-man .about-me p{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+    font-weight: 400;
+}
+#about .about-persion .about-man .hire-me h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 24px;
+	margin-top: 45px;
+}
+#about .about-persion .about-man .hire-me ul {
+	display: flex;
+	position: absolute;
+	bottom: 81px;
+}
+#about .about-persion .about-man .hire-me ul li{
+    margin-right: 20px;
+}
+#about .about-persion .about-man .hire-me ul li a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #222222;
+    transition: all linear 0.2s;
+}
+#about .about-persion .about-man .hire-me ul li a:hover{
+    background: #d6c6b2;
+    border: 1px solid #d6c6b2;
+    box-shadow: 0, 0, 2px, 5px rgba(34, 34, 34, 0.6);
+}
+#about .about-persion .about-man .hire-me ul li a i{
+    font-size: 20px;
+    line-height: 50px;
+    color: #222222;
+}
+/* about ends */
+
+/* service starts */
+#service{
+    height: 560px;
+    background: rgba(224, 224, 224, 0.801);
+}
+#service .service-main{
+    position: relative;
+}
+#service .service-main .common-heading{
+    padding-top: 40px;
+}
+#service .service-main .about-service .left-arrow {
+	display: flex;
+	position: absolute;
+	top: 113%;
+	right: 50%;
+	cursor: pointer;
+    transition: all linear0.2s;
+    font-size: 20px;
+}
+#service .service-main .about-service .left-arrow:hover{
+    color: #d6c6b2;
+    background: #d6c6b2;
+    border-radius: 50%;
+}
+#service .service-main .about-service .right-arrow {
+	display: flex;
+	position: absolute;
+	top: 113%;
+	right: 45%;
+	cursor: pointer;
+    font-size: 20px;
+}
+#service .service-main .about-service .right-arrow:hover{
+    color: #d6c6b2;
+    background: #d6c6b2;
+    border-radius: 50%;
+
+}
+#service .service-main .about-service .part-1{
+    width: 370px;
+    height: 320px;
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 60px;
+    display: inline;
+}
+#service .service-main .about-service .part-1 img {
+	margin: 0 auto;
+}
+#service .service-main .about-service .part-1 h4 {
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 28px;
+	margin-top: 22px;
+}
+
+#service .service-main .about-service .part-1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+#service .service-main .left{
+	position: absolute;
+	bottom: -71px;
+	left: 551px;
+	font-size: 20px;
+    scale: 1;
+}
+#service .service-main .left:hover{
+    scale: 1.4;
+}
+#service .service-main .right{
+	position: absolute;
+	bottom: -71px;
+	left: 638px;
+    font-size:20px
+}
+#service .service-main .right:hover{
+    scale: 1.4;
+}
+/* service ends */
+
+/* portfolio starts */
+#portfolio{
+    height: 1230px;
+    display: flex;
+}
+#portfolio .about-portfolio{
+    display: flex;
+}
+#portfolio .about-portfolio .about-image{
+    width: 80%;
+    height: 1000px;
+    margin-top: 65px;
+    margin-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-right: 5px;
+}
+#portfolio .about-portfolio .about-image .port-img {
+	position: relative;
+	width: 291px;
+	height: 323px;
+	overflow: hidden;
+}
+#portfolio .about-portfolio .about-image .port-img .overlay{
+	width: 100%;
+	height: 0%;
+	background: rgba(214, 198, 178, 0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	opacity: 0;
+	transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+}
+#portfolio .about-portfolio .about-image .port-img:hover .overlay{
+	opacity: 1;
+	height: 100%;
+}
+#portfolio .about-portfolio .about-image .port-img .overlay .link {
+	width: 40px;
+	height: 40px;
+	background: #444444;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 122px;
+	cursor: pointer;
+}
+#portfolio .about-portfolio .about-image .port-img .overlay .link i{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#portfolio .about-portfolio .about-image .port-img .overlay .g1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #222222;
+	margin-top: 43px;
+}
+#portfolio .about-portfolio .about-image .port-img .overlay .g2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #222222;
+	margin-top: 0px;
+}
+#portfolio .about-portfolio .about-text{
+    width: 20%;
+    height: 1000px;
+    margin-top: 65px;
+}
+#portfolio .about-portfolio .about-text h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	font-size: 32px;
+	color: #222222;
+	margin-top: -11px;
+    padding-bottom: 45px;
+}
+#portfolio .about-portfolio .about-text ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 64px;
+	cursor: pointer;
+}
+#portfolio .about-portfolio .about-text ul .active{
+	color: #d6c6b2;
+}
+#portfolio .about-portfolio .brows .common-brows a {
+	padding: 15px 20px;
+	background: #d6c6b2;
+	position: absolute;
+	bottom: -2235px;
+	left: 50%;
+	transition: all linear 0.2s;
+	text-transform: uppercase;
+	transform: translate(-50%);
+	font-weight: 600;
+}
+#portfolio .about-portfolio .brows .common-brows a:hover{
+    color: #d6c6b2;
+	background: none;
+	border: 2px solid #d6c6b2;
+}
+/* portfolio end */
+
+/* testimonial starts */
+#testimonial{
+    height: 510px;
+    background: gray;
+    background: url(../images/test-Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	position: relative;
+}
+#testimonial .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#testimonial .overlay h1 {
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 600px;
+	font-size: 32px;
+	color: #d6c6b2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#testimonial .overlay .about-test{
+	display: flex;
+}
+
+#testimonial .overlay .about-test .info-test{
+	display: flex !important;
+	width: 100%;
+	margin-right: 15px;
+}
+#testimonial .overlay .about-test .info-test .man img{
+	padding-right: 10px;
+}
+#testimonial .overlay .about-test .info-test .text h4{
+	margin-top: 26px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+	color: #fff;
+}
+#testimonial .overlay .about-test .info-test .text .ceo{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+#testimonial .overlay .about-test .info-test .text .about{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+	color: #fff;
+}
+#testimonial .overlay .about-test .info-test .text ul {
+	display: flex;
+	color: #fff;
+	margin-bottom: 25px;
+}
+#testimonial .overlay .about-test .info-test .text ul li{
+	margin-right: 5px;
+}
+
+/* testimonial ends */
+
+/* price starts */
+#price{
+    height: 850px;
+}
+#price .about-price .pricing-plan {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 32px;
+	color: #222222;
+	text-align: center;
+	padding-top: 80px;
+}
+#price .about-price{
+    position: relative;
+}
+#price .about-price .offer{
+    margin-bottom: 20px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    display: flex;
+    margin-right: 5px;
+}
+#price .about-price .offer .free{
+    width: 370px;
+    height: 556px;
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    margin-right: 30px;
+    transition: all linear 0.2s;
+}
+#price .about-price .offer .free:hover{
+    background: #d6c6b2;
+}
+
+#price .about-price .offer .free img{
+	box-shadow: none;
+}
+#price .about-price .offer .free:hover img{
+	box-shadow: 0px 0px 10px 5px rgba(59, 59, 59, 0.7);
+}
+#price .about-price .offer .free .digit {
+	position: absolute;
+	top: 201px;
+	left: 245px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+#price .about-price .offer .free h5 {
+	width: 100%;
+	height: 55px;
+	background-color: #dddddd;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding-top: 16px;
+	margin-bottom: 20px;
+	box-shadow: none;
+}
+#price .about-price .offer .free:hover h5 {
+	background: #d6c6b2;
+	box-shadow: 0px 10px 10px -2px rgba(59, 59, 59, 0.7);
+}
+#price .about-price .offer .free h1{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+}
+#price .about-price .offer .free h1 span{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24x;
+}
+#price .about-price .offer .free p{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+    line-height: 40px;
+}
+#price .about-price .offer .free a {
+	padding: 15px 20px;
+	border: 2px solid #222222;
+	position: absolute;
+	top: 460px;
+	left: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #444444;
+	transition: all linear 0.2;
+	-webkit-transition: all linear 0.2;
+	-moz-transition: all linear 0.2;
+	-ms-transition: all linear 0.2;
+	-o-transition: all linear 0.2;
+	transition: all linear 0.2s;
+}
+#price .about-price .offer .free a:hover{
+    box-shadow: 0px 0px 10px 5px rgba(59, 59, 59, 0.7);
+    border: 2px solid #d6c6b2;
+}
+/* price ends */
+
+/* blog starts */
+#blog{
+    height: 970px;
+    background: #f1f1f9;
+	position: relative;
+}
+#blog .about-blog{
+    display: flex;
+    position: relative;
+}
+#blog .about-blog .my-blog {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 32px;
+	color: #222222;
+	margin: 23px auto;
+}
+#blog .about-blog .part-1{
+    width: 670px;
+    height: 655px;
+    position: absolute;
+    top: 150px;
+}
+#blog .about-blog .part-1 .night{
+	width: 670px;
+	height: 314px;
+	background-color: #dddddd;
+	margin-bottom: 27px;
+	position: relative;
+	transition: all linear 0.2;
+}
+#blog .about-blog .part-1 .night .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	width: 270px;
+	height: 100%;
+	background: rgba(99, 99, 99, 0.7);
+	opacity: 1;
+}
+#blog .about-blog .part-1 .night:hover .overlay{
+	opacity: 0;
+}
+#blog .about-blog .part-1 .night .admin .post{
+    position: relative;
+}
+#blog .about-blog .part-1 .night .admin .post i {
+	position: absolute;
+	top: -299px;
+	right: 378px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .post p {
+	position: absolute;
+	top: -302px;
+	left: 050;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 257px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .like{
+    position: relative;
+}
+#blog .about-blog .part-1 .night .admin .like i {
+	position: absolute;
+	top: -299px;
+	right: 198px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .like p {
+	position: absolute;
+	top: -302px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 166px;
+    text-transform: uppercase;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .comment{
+    position: relative;
+}
+#blog .about-blog .part-1 .night .admin .comment i {
+	position: absolute;
+	top: -296px;
+	right: 132px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .comment p {
+	position: absolute;
+    top: -302px;
+	left: 542px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 257px;
+	text-transform: uppercase;
+	top: -300px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .shear{
+    position: relative;
+}
+#blog .about-blog .part-1 .night .admin .shear i {
+	position: absolute;
+	top: -298px;
+	right: 53px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night .admin .shear p {
+	position: absolute;
+	top: -302px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 22px;
+	text-transform: uppercase;
+    color:#4444;
+}
+#blog .about-blog .part-1 .night h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 42px;
+	right: 0;
+	padding-right: 40px;
+	padding-left: 282px;
+    color: #222222;
+}
+#blog .about-blog .part-1 .night .bog {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: absolute;
+	top: 125px;
+	right: 0;
+	padding-right: 40px;
+	padding-left: 282px;
+	color: #444444;
+}
+#blog .about-blog .part-1 .read a {
+	color: #222222;
+	position: absolute;
+	bottom: 357px;
+	left: 284px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	transition: all linear 0.2s;
+}
+#blog .about-blog .part-1 .read:hover a{
+	color: #d6c6b2;
+}
+#blog .about-blog .part-1 .read a p {
+	position: absolute;
+	top: 250px;
+	bottom: 0;
+	right: 302px;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+#blog .about-blog .part-1 .shear-2{
+    position: relative;
+}
+#blog .about-blog .part-1 .shear-2 a {
+	position: absolute;
+	left: 530px;
+	bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #444444;
+}
+#blog .about-blog .part-1 .shear-2 p {
+	position: absolute;
+	top: -85px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	right: 22px;
+	text-transform: capitalize;
+	color: #4444;
+}
+#blog .about-blog .part-1 .day{
+    width: 670px;
+    height: 314px;
+    background-color: #dddddd;
+    margin-bottom: 27px;
+    position: relative;
+}
+
+#blog .about-blog .part-1 .day .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	width: 270px;
+	height: 100%;
+	background: rgba(99, 99, 99, 0.7);
+	opacity: 1;
+	transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+}
+#blog .about-blog .part-1 .day:hover .overlay{
+	opacity: 0;
+}
+#blog .about-blog .part-1 .day .admin .post{
+    position: relative;
+}
+#blog .about-blog .part-1 .day .admin .post i {
+	position: absolute;
+	top: -299px;
+	right: 378px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .post p {
+	position: absolute;
+	top: -302px;
+	left: 050;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 257px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .like{
+    position: relative;
+}
+#blog .about-blog .part-1 .day .admin .like i {
+	position: absolute;
+	top: -299px;
+	right: 198px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .like p {
+	position: absolute;
+	top: -302px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 166px;
+    text-transform: uppercase;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .comment{
+    position: relative;
+}
+#blog .about-blog .part-1 .day .admin .comment i {
+	position: absolute;
+	top: -299px;
+	right: 132px;
+	font-size: 14px;
+	color: #4444;
+}
+#blog .about-blog .part-1 .day .admin .comment p {
+	position: absolute;
+    top: -302px;
+	left: 542px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 257px;
+	text-transform: uppercase;
+	top: -300px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .shear{
+    position: relative;
+}
+#blog .about-blog .part-1 .day .admin .shear i {
+	position: absolute;
+	top: -298px;
+	right: 53px;
+	font-size: 14px;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day .admin .shear p {
+	position: absolute;
+	top: -302px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 22px;
+	text-transform: uppercase;
+    color:#4444;
+}
+#blog .about-blog .part-1 .day h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 42px;
+	right: 0;
+	padding-right: 40px;
+	padding-left: 282px;
+    color: #222222;
+}
+#blog .about-blog .part-1 .day .bog {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: absolute;
+	top: 125px;
+	right: 0;
+	padding-right: 40px;
+	padding-left: 282px;
+	color: #444444;
+}
+#blog .about-blog .part-1 .read-1 a {
+	text-decoration: none;
+	position: absolute;
+	left: 281px;
+	bottom: 15px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #222222;
+	transition: all linear 0.2s;
+}
+#blog .about-blog .part-1 .read-1 a:hover{
+	color: #d6c6b2;
+
+}
+#blog .about-blog .part-1 .shear-2{
+    position: relative;
+}
+#blog .about-blog .part-1 .shear-2 p {
+	position: absolute;
+	top: -85px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	right: 22px;
+	text-transform: capitalize;
+	color: #4444;
+}
+#blog .about-blog .part-1 .shear-3 a {
+	text-transform: capitalize;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	position: absolute;
+	bottom: 17px;
+	right: 74px;
+	padding-right: 6px;
+	color: #444444;
+}
+#blog .about-blog .part-1 .shear-2 p {
+	position: absolute;
+	top: -85px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	right: 22px;
+	text-transform: capitalize;
+	color: #4444;
+}
+
+
+
+
+/* part-2 starts */
+#blog .about-blog .part-2 {
+	width: 470px;
+	height: 655px;
+	background: #dddddd;
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+#blog .about-blog .part-2 .day {
+	width: 470px;
+	height: 340px;
+}
+#blog .about-blog .part-2 .day .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	width: 470px;
+	height: 340px;
+	background: rgba(99, 99, 99, 0.7);
+	opacity: 1;
+}
+#blog .about-blog .part-2:hover .day .overlay{
+	opacity: 0;
+}
+#blog .about-blog .part-2 .day .admin .post {
+	position: relative;
+}
+#blog .about-blog .part-2 .day .admin .post i {
+	position: absolute;
+	top: 15px;
+	right: 441px;
+	font-size: 14px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .post p {
+	position: absolute;
+	top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 320px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .like {
+	position: relative;
+}
+#blog .about-blog .part-2 .day .admin .like i {
+	position: absolute;
+	top: 15px;
+	right: 222px;
+	font-size: 14px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .like p {
+	position: absolute;
+	top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 188px;
+	text-transform: uppercase;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .comment {
+	position: relative;
+}
+#blog .about-blog .part-2 .day .admin .comment i {
+	position: absolute;
+	top: 15px;
+	right: 152px;
+	font-size: 14px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .comment p {
+	position: absolute;
+	left: 325px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 443px;
+	text-transform: uppercase;
+	top: 13px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .shear {
+	position: relative;
+}
+#blog .about-blog .part-2 .day .admin .shear i {
+	position: absolute;
+	top: 15px;
+	right: 83px;
+	font-size: 14px;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day .admin .shear p {
+	position: absolute;
+	top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	right: 49px;
+	text-transform: uppercase;
+	color: #4444;
+}
+#blog .about-blog .part-2 .day h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 392px;
+	color: #222222;
+	padding-left: 13px;
+	padding-right: 50px;
+	text-align: center;
+}
+#blog .about-blog .part-2 .day .bog {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	position: absolute;
+	top: 474px;
+	right: 41px;
+	padding-left: 38px;
+	color: #444444;
+	text-align: center;
+}
+#blog .about-blog .part-2 .day .read-1 a{
+	text-decoration: none;
+    position: absolute;
+    left: 20px;
+    bottom: 13px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#blog .about-blog .part-2 .shear-2{
+    position: relative;
+}
+#blog .about-blog .part-2 .shear-2 p {
+	position: absolute;
+	top: -85px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	right: 22px;
+	text-transform: capitalize;
+	color: #4444;
+}
+#blog .about-blog .part-2 .shear-3 a {
+	text-transform: capitalize;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	position: absolute;
+	bottom: 17px;
+	right: 27px;
+	padding-right: 6px;
+	color: #444444;
+}
+#blog .about-blog .part-2 .shear-2 p {
+	position: absolute;
+	top: -85px;
+	left: 40;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	right: 22px;
+	text-transform: capitalize;
+	color: #4444;
+}
+#blog .about-blog .part-2 .read-1 a {
+	text-decoration: none;
+	position: absolute;
+	left: 15px;
+	bottom: 13px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #222222;
+	transition: all linear 0.2s;
+}
+#blog .about-blog .part-2 .read-1 a:hover{
+	color: #d6c6b2;
+}
+
+#blog .about-blog .part-2 .day .read-1{
+	color: #222222;
+}
+#blog .about-blog .part-2 .day a:hover{
+	color: #d6c6b2;
+}
+
+
+/* part-2 ends */
+#blog{
+	position: relative;
+}
+#blog .brows{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 46px;
+}
+#blog .brows a {
+	padding: 15px 20px;
+	background: #d6c6b2;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 22x;
+	transition: all linear 0.2s;
+	color: #222222;
+}
+#blog .brows a:hover{
+	color: #d6c6b2;
+	background: none;
+	border: 2px solid #d6c6b2;
+}
+
+
+
+
+
+
+ #conect{
+	height: 430px;
+}
+#conect .location {
+	width: 1170px;
+	margin-top: 50px;
+	padding-top: 1%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#conect .location .touch-me .touch{
+	margin-top: 100px;
+	color: #444444;
+}
+#conect .location .touch-me .touch h3{
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: #222222;
+}
+#conect .location .touch-me .touch .g1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #444444;
+}
+#conect .location .touch-me .touch .g1 a{
+	color: #444444;
+}
+#conect .location .touch-me .touch .g2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #444444;
+}
+#conect .location .touch-me .touch .g2 a{
+	color: #444444;
+}
+#conect .location .touch-me .touch .g3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #444444;
+}
+#conect .location .touch-me .touch .g3 a{
+	color: #444444;
+}
+#conect .location .touch-me .follow h3{
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #222222;
+}
+#conect .location .touch-me .follow ul{
+	display: flex;
+}
+#conect .location .touch-me .follow ul li {
+	margin-right: 15px;
+}
+#conect .location .touch-me .follow ul li a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	color: #444444;
+	transition: all linear 0.2s;
+}
+#conect .location .touch-me .follow ul li a:hover{
+	background: #d6c6b2;
+}
+#conect .location .touch-me .follow ul li i{
+	font-size: 20px;
+
+}
+#conect .location .message form {
+	width: 770px;
+	height: 300px;
+	background: rgba(209, 209, 209, 0.3);
+	margin-top: 64px;
+}
+#conect .location .message form h1{
+	color: #222222;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+#conect .location .message form{
+	position: relative;
+}
+#conect .location .message form .name {
+	width: 350px;
+	height: 50px;
+	border: 1px solid #444444;
+	padding: 10px;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14x;
+	font-style: italic;
+	margin-left: 30px;
+	outline: none;
+	background: none;
+}
+#conect .location .message form .mail{
+	width: 350px;
+	height: 50px;
+	border: 1px solid #444444;
+	padding: 10px;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14x;
+	font-style: italic;
+	margin-left: 7px;
+	outline: none;
+	background: none;
+}
+#conect .location .message form .message {
+	width: 711px;
+	height: 150px;
+	border: 1px solid #444444;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14x;
+	font-style: italic;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-left: 9px;
+	padding-top: 6px;
+	outline: none;
+	resize: none;
+	background: none;
+}
+#conect .location .message form .sub {
+	position: absolute;
+	top: 237px;
+	left: 717px;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+
+
+
+
+/* preloader starts */
+.loader{
+	width: 100%;
+	height: 100vh;
+	z-index: 9999999999999999999999999999999;
+	position: fixed;
+	inset: 0;
+	background-color: #222;
+}
+  #preloader {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+  }
+  #loader {
+	  display: block;
+	  position: relative;
+	  left: 50%;
+	  top: 50%;
+	  width: 150px;
+	  height: 150px;
+	  margin: -75px 0 0 -75px;
+	  border-radius: 50%;
+	  border: 3px solid transparent;
+	  border-top-color: #9370DB;
+	  -webkit-animation: spin 2s linear infinite;
+	  animation: spin 2s linear infinite;
+  }
+  #loader:before {
+	  content: "";
+	  position: absolute;
+	  top: 5px;
+	  left: 5px;
+	  right: 5px;
+	  bottom: 5px;
+	  border-radius: 50%;
+	  border: 3px solid transparent;
+	  border-top-color: #BA55D3;
+	  -webkit-animation: spin 3s linear infinite;
+	  animation: spin 3s linear infinite;
+  }
+  #loader:after {
+	  content: "";
+	  position: absolute;
+	  top: 15px;
+	  left: 15px;
+	  right: 15px;
+	  bottom: 15px;
+	  border-radius: 50%;
+	  border: 3px solid transparent;
+	  border-top-color: #FF00FF;
+	  -webkit-animation: spin 1.5s linear infinite;
+	  animation: spin 1.5s linear infinite;
+  }
+  @-webkit-keyframes spin {
+	  0%   {
+		  -webkit-transform: rotate(0deg);
+		  -ms-transform: rotate(0deg);
+		  transform: rotate(0deg);
+	  }
+	  100% {
+		  -webkit-transform: rotate(360deg);
+		  -ms-transform: rotate(360deg);
+		  transform: rotate(360deg);
+	  }
+  }
+  @keyframes spin {
+	  0%   {
+		  -webkit-transform: rotate(0deg);
+		  -ms-transform: rotate(0deg);
+		  transform: rotate(0deg);
+	  }
+	  100% {
+		  -webkit-transform: rotate(360deg);
+		  -ms-transform: rotate(360deg);
+		  transform: rotate(360deg);
+	  }
+  }
+/* preloader ends */
+
+/* scrolling button starts */
+.scroll {
+	width: 50px;
+	height: 50px;
+	background: red;
+	border-radius: 50%;
+	transition: all linear 0.2s;
+	text-align: center;
+	line-height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+.scroll:hover{
+	background: rgb(172, 6, 6);
+}
+.scroll i{
+	font-size: 20px;
+	color: #fff;
+}
+/* scrolling button ends */
